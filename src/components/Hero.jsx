@@ -29,11 +29,19 @@ function Hero() {
         </div>
 
         <div className="hero-socials">
-          <a href="YOUR_GITHUB_URL" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/Jonathan-Lin-162"
+            target="_blank"
+            rel="noreferrer"
+          >
             GitHub
           </a>
 
-          <a href="YOUR_LINKEDIN_URL" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.linkedin.com/in/jonathan-lin-bcit"
+            target="_blank"
+            rel="noreferrer"
+          >
             LinkedIn
           </a>
         </div>

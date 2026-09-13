@@ -1,0 +1,75 @@
+.skills {
+  padding: 100px 24px;
+  background-color: #ffffff;
+}
+
+.skills-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.skills h2 {
+  margin: 0 0 12px;
+
+  font-size: 3rem;
+  color: #111827;
+}
+
+.skills-description {
+  max-width: 600px;
+  margin-bottom: 40px;
+
+  color: #6b7280;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+/* Main Flexbox */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skill-card {
+  flex: 1 1 350px;
+
+  padding: 28px;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+
+  background-color: #ffffff;
+  transition: transform 0.2s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-3px);
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+}
+
+.skill-card h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+
+  color: #111827;
+}
+
+/* Another Flexbox inside each card */
+.skill-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-badge {
+  padding: 7px 12px;
+
+  background-color: #f3f4f6;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+
+  color: #4b5563;
+  font-size: 0.9rem;
+}
