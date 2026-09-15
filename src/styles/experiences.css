@@ -1,0 +1,154 @@
+.experience {
+  padding: 100px 24px;
+}
+
+.experience-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.experience h2 {
+  margin: 0 0 12px;
+
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+
+  color: #111827;
+}
+
+.experience-intro {
+  margin: 0 0 48px;
+
+  font-size: 1.05rem;
+  color: #6b7280;
+}
+
+/* Timeline */
+
+.experience-list {
+  position: relative;
+
+  max-width: 900px;
+
+  padding-left: 32px;
+}
+
+/* Vertical timeline line */
+
+.experience-list::before {
+  content: "";
+
+  position: absolute;
+
+  left: 7px;
+  top: 8px;
+  bottom: 0;
+
+  width: 2px;
+
+  background-color: #e5e7eb;
+}
+
+/* Individual experience */
+
+.experience-item {
+  position: relative;
+
+  padding-bottom: 48px;
+}
+
+/* Timeline circle */
+
+.experience-marker {
+  position: absolute;
+
+  left: -32px;
+  top: 7px;
+
+  width: 16px;
+  height: 16px;
+
+  border: 3px solid #111827;
+  border-radius: 50%;
+
+  background-color: #ffffff;
+}
+
+.experience-content {
+  padding: 0 0 0 16px;
+}
+
+/* Header */
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  gap: 24px;
+}
+
+.experience-header h3 {
+  margin: 0;
+
+  font-size: 1.3rem;
+  color: #111827;
+}
+
+.experience-organization {
+  margin: 6px 0 0;
+
+  font-weight: 600;
+  color: #4b5563;
+}
+
+.experience-date {
+  margin: 0;
+
+  white-space: nowrap;
+
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+/* Location + employment type */
+
+.experience-location {
+  margin-top: 10px;
+
+  font-size: 0.9rem;
+  color: #9ca3af;
+}
+
+/* Description */
+
+.experience-content ul {
+  margin: 20px 0 0;
+  padding-left: 20px;
+
+  color: #6b7280;
+}
+
+.experience-content li {
+  margin-bottom: 8px;
+
+  line-height: 1.6;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .experience {
+    padding: 72px 20px;
+  }
+
+  .experience h2 {
+    font-size: 2.4rem;
+  }
+
+  .experience-header {
+    flex-direction: column;
+    gap: 8px;
+  }
+}

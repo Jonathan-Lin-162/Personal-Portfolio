@@ -16,7 +16,7 @@ function Navbar() {
     <header className="navbar">
       <div className="navbar-container">
         <a href="#home" className="navbar-logo" onClick={closeMenu}>
-          YNL
+          Jonathan Lin
         </a>
 
         <button
@@ -56,7 +56,7 @@ function Navbar() {
           </a>
 
           <a
-            href="/resume/Ye-Naing-Lin-Resume.pdf"
+            href="/resume/Jonathan-Lin-Resume.pdf"
             className="mobile-resume"
             target="_blank"
             rel="noreferrer"
@@ -66,7 +66,7 @@ function Navbar() {
         </nav>
 
         <a
-          href="/resume/Ye-Naing-Lin-Resume.pdf"
+          href="/resume/Jonathan-Lin-Resume.pdf"
           className="navbar-resume"
           target="_blank"
           rel="noreferrer"

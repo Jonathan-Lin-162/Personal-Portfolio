@@ -30,6 +30,7 @@
 .about .card-container .card {
   flex: 1 1 300px;
   max-width: 380px;
+  background-color: #ffffff;
 
   border: 1px solid #d1d5db;
   border-radius: 8px;

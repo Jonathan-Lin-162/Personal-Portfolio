@@ -1,0 +1,156 @@
+.education {
+  padding: 100px 24px;
+}
+
+.education-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.education h2 {
+  margin: 0 0 12px;
+
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+
+  color: #111827;
+}
+
+.education-intro {
+  margin: 0 0 40px;
+
+  font-size: 1.05rem;
+  line-height: 1.7;
+
+  color: #6b7280;
+}
+
+/* Education cards */
+
+.education-list {
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+.education-card {
+  padding: 28px;
+
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+
+  background-color: #ffffff;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-3px);
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+}
+
+/* School + date */
+
+.education-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  gap: 24px;
+}
+
+.education-header h3 {
+  margin: 0;
+
+  font-size: 1.3rem;
+  font-weight: 700;
+
+  color: #111827;
+}
+
+.education-program {
+  margin: 8px 0 0;
+
+  font-size: 1rem;
+  font-weight: 600;
+
+  color: #4b5563;
+}
+
+.education-date {
+  margin: 0;
+
+  white-space: nowrap;
+
+  font-size: 0.9rem;
+
+  color: #6b7280;
+}
+
+.education-location {
+  margin: 10px 0 0;
+
+  font-size: 0.9rem;
+
+  color: #9ca3af;
+}
+
+/* Coursework */
+
+.education-coursework {
+  margin-top: 24px;
+}
+
+.education-coursework h4 {
+  margin: 0 0 12px;
+
+  font-size: 0.9rem;
+  font-weight: 600;
+
+  color: #4b5563;
+}
+
+.coursework-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 8px;
+}
+
+.coursework-list span {
+  padding: 6px 10px;
+
+  border-radius: 6px;
+
+  background-color: #f3f4f6;
+
+  font-size: 0.85rem;
+
+  color: #4b5563;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .education {
+    padding: 72px 20px;
+  }
+
+  .education h2 {
+    font-size: 2.4rem;
+  }
+
+  .education-header {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .education-card {
+    padding: 22px;
+  }
+}

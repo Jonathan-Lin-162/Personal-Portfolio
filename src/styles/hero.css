@@ -11,6 +11,24 @@
   max-width: 1200px;
 
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.hero-photo {
+  width: 320px;
+  height: 320px;
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.hero-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 45% 25%;
 }
 
 .hero-intro {
@@ -142,6 +160,10 @@
     padding: 72px 20px;
   }
 
+  .hero-container {
+    flex-direction: column;
+  }
+
   .hero-intro {
     font-size: 0.95rem;
   }
@@ -168,6 +190,7 @@
   }
 
   .hero-socials {
+    justify-content: center;
     margin-top: 24px;
   }
 }
