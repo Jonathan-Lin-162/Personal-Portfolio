@@ -157,11 +157,12 @@
 /* Mobile */
 @media (max-width: 600px) {
   .hero {
-    padding: 72px 20px;
+    padding: 50px 20px;
   }
 
   .hero-container {
     flex-direction: column;
+    gap: 20px;
   }
 
   .hero-intro {

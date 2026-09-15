@@ -16,7 +16,7 @@ function Navbar() {
     <header className="navbar">
       <div className="navbar-container">
         <a href="#home" className="navbar-logo" onClick={closeMenu}>
-          Jonathan Lin
+          JL
         </a>
 
         <button
