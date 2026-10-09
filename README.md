@@ -65,4 +65,4 @@ This portfolio is deployed using **Vercel**, with automatic deployments from Git
 ## Contact
 
 - **LinkedIn:** [Jonathan Lin](https://www.linkedin.com/in/jonathan-lin-bcit/)
-- **email:** ylin297@my.bcit.ca
+- **Email:** ylin297@my.bcit.ca
