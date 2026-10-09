@@ -62,7 +62,7 @@ npm run build
 
 This portfolio is deployed using **Vercel**, with automatic deployments from GitHub.
 
-## Connect With Me
+## Contact
 
 - **LinkedIn:** [Jonathan Lin](https://www.linkedin.com/in/jonathan-lin-bcit/)
 - **email:** ylin297@my.bcit.ca
